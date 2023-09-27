@@ -1,0 +1,19 @@
+{
+  "name": "project-on-phoenix",
+  "version": "1.0.0",
+  "description": "Tailwind PostCSS Starter",
+  "main": "index.js",
+  "scripts": {
+    "type": "module",
+    "build": "postcss ./src/main.css -o ./build/style.css",
+    "watch": "postcss ./src/main.css -o ./build/style.css --watch"
+  },
+  "author": "Albez Figueroa",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
