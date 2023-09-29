@@ -13,8 +13,7 @@ It's fast, flexible, and reliable — with zero-runtime.
   
 </p>
 
-
-#### Reference web pages:
+#### Reference web page:
 
 - https://tailwindcss.com
 - https://developer.mozilla.org/en-US/docs/Web
