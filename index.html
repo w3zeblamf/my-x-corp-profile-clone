@@ -31,93 +31,100 @@
   <body>
     <!-- Container -->
     <div class="bg-black flex h-screen mx-auto">
-      <!-- Left Sidebar-->
-      <div>
-        <!-- Logo -->
-        <div class="ml-20 XButtons h-14 w-14">
-          <span>
-            <i class="fa-brands fa-x-twitter text-4xl"></i>
-          </span>
-        </div>
-        <!-- EO Logo -->
+      <!-- Left Sidebar Section-->
+        <div>
+          <!-- Logo -->
+          <div class="mt-2 xl:ml-20 ml-5 XButtons h-14 w-14">
+            <span>
+              <i class="fa-brands fa-x-twitter text-4xl"></i>
+            </span>
+          </div>
+          <!-- EO Logo -->
 
-        <!-- Bottoms -->
-        <div class="space-y-2.5 mt-3">
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-house"></i>-->
-            <ion-icon name="home"></ion-icon>
-            <span>Home</span>
+          <!-- Bottoms -->
+          <div class="space-y-2.5 mt-3">
+            <div class="XButtons">
+              <ion-icon name="home"></ion-icon>
+              <span class="hidden xl:inline">Home</span>
+            </div>
+
+            <div class="XButtons">
+              <!--<i class="fa-solid fa-hashtag text-2xl"></i>-->
+              <ion-icon name="search"></ion-icon>
+              <span class="hidden xl:inline">Explore</span>
+            </div>
+
+            <div class="XButtons">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="hidden xl:inline">Notifications</span>
+            </div>
+
+            <div class="XButtons">
+              <ion-icon name="mail"></ion-icon>
+              <span class="hidden xl:inline">Message</span>
+            </div>
+
+            <div class="XButtons">
+              <ion-icon name="document-text"></ion-icon>
+              <span class="hidden xl:inline">List</span>
+            </div>
+
+            <div class="XButtons">
+              <ion-icon name="people-outline" class="text-3xl"></ion-icon>
+              <span class="hidden xl:inline">Communities</span>
+            </div>
+
+            <div class="XButtons">
+              <i class="fa-brands fa-x-twitter"></i>
+              <span class="hidden xl:inline">Premium</span>
+            </div>
+
+            <div class="XButtons">
+              <ion-icon name="person-outline"></ion-icon>
+              <span class="hidden xl:inline">Profile</span>
+            </div>
+
+            <div class="XButtons">
+              <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>
+              <span class="hidden xl:inline">More</span>
+            </div>
+
+            <button
+              class="text-center h-12 w-12 mt-5 xl:hidden XButtons bg-XBlue hover:bg-blue-500">
+              <i class="fa-solid fa-feather-pointed" title="Post"></i>
+            </button>
           </div>
 
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-hashtag text-2xl"></i>-->
-            <ion-icon name="search"></ion-icon>
-            <span>Explore</span>
-          </div>
+          <button
+            class="mt-6 ml-20 bg-XBlue text-white font-semibold rounded-full w-56 h-12 hover:bg-blue-500 hidden xl:inline">
+            Post
+          </button>
 
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-bell text-2xl"></i>-->
-            <ion-icon name="notifications"></ion-icon>
-            <span>Notifications</span>
-          </div>
+          <!-- EO Bottoms -->
 
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-message text-2xl"></i>-->
-            <ion-icon name="mail"></ion-icon>
-            <span>Message</span>
-          </div>
-
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-bookmark text-2xl"></i>-->
-            <ion-icon name="document-text"></ion-icon>
-            <span>List</span>
-          </div>
-
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-bookmark text-2xl"></i>-->
-            <ion-icon name="people-outline" class="text-3xl"></ion-icon>
-            <span>Communities</span>
-          </div>
-
-          <div class="XButtons">
-            <i class="fa-brands fa-x-twitter"></i>
-            <span>Premium</span>
-          </div>
-
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-user text-2xl"></i>-->
-            <ion-icon name="person-outline"></ion-icon>
-            <span>Profile</span>
-          </div>
-
-          <div class="XButtons">
-            <!--<i class="fa-solid fa-angle-right text-2xl"></i>-->
-            <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>
-            <span>More</span>
-          </div>
-          
-        </div>
-        
-         <button class="mt-20 ml-20 bg-XBlue rounded-full w-56 h-12 hover:bg-blue-500">Post</button>
-        <!-- EO Bottoms -->
-
-        <!-- Settings 
+          <!-- Settings 
         <div class="ml-20 XButtons">
           <ion-icon
             name="settings-outline"
             class="text-XWhite text-2xl"></ion-icon>
         </div>
         EO Settings -->
-        
-      </div>
-      <!-- EO Left Sidebar-->
+        </div>
+      <!-- EO Left Sidebar Section-->
 
       <!-- Main Section -->
-
+        <div class="flex-grow border-l border-r border-gray-700 ml-20">
+          <h1 class="text-XWhite text-lg font-bold p-2 border-b border-gray-700">Home</h1>
+        </div>
       <!-- EO Main Section -->
 
+     <div>
+       <img src="" alt="">
+     </div>
+     
+     
       <!-- Right Sidebar-->
-      <div></div>
+        <div class="w-96"></div>
       <!-- EO Right Sidebar-->
     </div>
     <!-- EO Container -->
