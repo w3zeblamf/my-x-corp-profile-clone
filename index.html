@@ -14,14 +14,13 @@
       referrerpolicy="no-referrer" />
     <title>X Social Networks Clone</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style type="text/tailwindcss"></style>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              xBlue: "#2d9bf0",
-              xWhite: "#d9d9d9"
+              XBlue: "#2d9bf0",
+              XWhite: "#d9d9d9"
             }
           }
         }
@@ -31,58 +30,106 @@
   </head>
   <body>
     <!-- Container -->
-    <div class="bg-gray-900 flex h-screen mx-auto">
-      <!-- Left Sidebare-->
+    <div class="bg-black flex h-screen mx-auto">
+      <!-- Left Sidebar-->
       <div>
-      <!-- Logo -->
-      <div class="flex w-14 h-14 text-white">
-      <span>
-      <i class="fa-brands fa-x-twitter "></i>
-      </span>
-      </div>
-      <!-- EO Logo -->
-      
-      <!-- Settigns -->
-      <div ><ion-icon name="settings-outline" 
-      class="text-white text-3xl"></ion-icon></div>
-      <!-- EO Settigns -->
-      
-      </div>
-      <!-- EO Left Sidebare-->
+        <!-- Logo -->
+        <div class="ml-20 XButtons h-14 w-14">
+          <span>
+            <i class="fa-brands fa-x-twitter text-4xl"></i>
+          </span>
+        </div>
+        <!-- EO Logo -->
 
-     
+        <!-- Bottoms -->
+        <div class="space-y-2.5 mt-3">
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-house"></i>-->
+            <ion-icon name="home"></ion-icon>
+            <span>Home</span>
+          </div>
+
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-hashtag text-2xl"></i>-->
+            <ion-icon name="search"></ion-icon>
+            <span>Explore</span>
+          </div>
+
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-bell text-2xl"></i>-->
+            <ion-icon name="notifications"></ion-icon>
+            <span>Notifications</span>
+          </div>
+
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-message text-2xl"></i>-->
+            <ion-icon name="mail"></ion-icon>
+            <span>Message</span>
+          </div>
+
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-bookmark text-2xl"></i>-->
+            <ion-icon name="document-text"></ion-icon>
+            <span>List</span>
+          </div>
+
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-bookmark text-2xl"></i>-->
+            <ion-icon name="people-outline" class="text-3xl"></ion-icon>
+            <span>Communities</span>
+          </div>
+
+          <div class="XButtons">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>Premium</span>
+          </div>
+
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-user text-2xl"></i>-->
+            <ion-icon name="person-outline"></ion-icon>
+            <span>Profile</span>
+          </div>
+
+          <div class="XButtons">
+            <!--<i class="fa-solid fa-angle-right text-2xl"></i>-->
+            <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>
+            <span>More</span>
+          </div>
+          
+        </div>
+        
+         <button class="mt-20 ml-20 bg-XBlue rounded-full w-56 h-12 hover:bg-blue-500">Post</button>
+        <!-- EO Bottoms -->
+
+        <!-- Settings 
+        <div class="ml-20 XButtons">
+          <ion-icon
+            name="settings-outline"
+            class="text-XWhite text-2xl"></ion-icon>
+        </div>
+        EO Settings -->
+        
+      </div>
+      <!-- EO Left Sidebar-->
+
       <!-- Main Section -->
-      
+
       <!-- EO Main Section -->
 
-     
-      <!-- Right Sidebare-->
+      <!-- Right Sidebar-->
       <div></div>
-      <!-- EO Right Sidebare-->
+      <!-- EO Right Sidebar-->
     </div>
     <!-- EO Container -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<!-- Ionicons v7.1.0-->
-<!-- https://ionic.io/ionicons/usage -->
+
+    <!-- Ionicons v7.1.0-->
+    <!-- https://ionic.io/ionicons/usage -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script
-      nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
   <!-- EO Ionicons v7.1.0-->
 </html>
