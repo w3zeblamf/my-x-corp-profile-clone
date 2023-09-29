@@ -4,6 +4,6 @@
 
 @layer components {
   .XButtons {
-    @apply ml-20 text-xWhite text-2xl w-14 h-14 flex space-x-3 items-center justify-center cursor-pointer hover:bg-xWhite hover:bg-opacity-10 rounded-full xl:h-auto xl:w-auto xl:px-4 xl:py-3 xl:justify-start;
+    @apply ml-5 text-xWhite text-2xl w-14 h-14 flex space-x-3 items-center justify-center cursor-pointer hover:bg-xWhite hover:bg-opacity-10 rounded-full xl:h-auto xl:ml-20 xl:w-auto xl:px-4 xl:py-3 xl:justify-start;
   }
 }
