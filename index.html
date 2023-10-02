@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- Container -->
-    <div class="bg-black flex h-screen mx-auto">
+    <div class="bg-black flex mx-auto">
       <!-- Left Sidebar Section-->
       <div>
         <!-- Logo -->
@@ -130,14 +130,13 @@
               <textarea
                 placeholder="What is happening?!"
                 rows="2"
-                class="w-full bg-transparent outline-none text-XWhite"></textarea>
+                class="w-full bg-transparent outline-none text-XWhite pt-3"></textarea>
               <!-- EO What is hapening? -->
             </div>
           </div>
 
           <!-- Icons Area-->
           <div class="flex justify-between">
-           
             <div class="flex items-center space-x-2 ml-3">
               <div
                 class="w-9 h-9 flex justify-center items-center rounded-full hover:bg-gray-900 cursor-pointer"
@@ -145,15 +144,23 @@
                 <i class="fa-solid fa-image text-XBlue"></i>
               </div>
 
-              <div class="w-9 h-9 flex justify-center items-center rounded-full hover:bg-gray-900 cursor-pointer"
-                title="Emoji" ><i class="fa-solid fa-face-smile text-XBlue"></i></div>
-              
-              <div class="w-9 h-9 flex justify-center items-center rounded-full hover:bg-gray-900 cursor-pointer"
-                title="Poll"><i class="fa-solid fa-clipboard-list text-XBlue"></i></div>
-              
-              <div class="w-9 h-9 flex justify-center items-center rounded-full hover:bg-gray-900 cursor-pointer"
-                title=""><i class="fa-solid fa-box archive text-XBlue"></i></div>
-              
+              <div
+                class="w-9 h-9 flex justify-center items-center rounded-full hover:bg-gray-900 cursor-pointer"
+                title="Emoji">
+                <i class="fa-solid fa-face-smile text-XBlue"></i>
+              </div>
+
+              <div
+                class="w-9 h-9 flex justify-center items-center rounded-full hover:bg-gray-900 cursor-pointer"
+                title="Poll">
+                <i class="fa-solid fa-clipboard-list text-XBlue"></i>
+              </div>
+
+              <div
+                class="w-9 h-9 flex justify-center items-center rounded-full hover:bg-gray-900 cursor-pointer"
+                title="">
+                <i class="fa-solid fa-box archive text-XBlue"></i>
+              </div>
             </div>
             <button
               class="bg-XBlue text-XWhite px-4 py-1 font-bold hover:bg-blue-500 rounded-full mr-4">
@@ -166,120 +173,179 @@
       <!-- EO Main Section -->
 
       <!-- Right Sidebar-->
-      <div class="w-96 hidden lg:inline ml-2 space-y-4">
-        
+      <div class="w-96 hidden lg:inline mx-4 space-y-4">
         <!-- Search -->
         <div class="mt-2 mx-auto w-[350px] xl:w-11/12">
-         <!-- Icon -->
+          <!-- Icon -->
           <div class="flex items-center p-3 bg-[#202327] rounded-full">
             <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
-            <input type="text" name="search" placeholder="X Search" class="bg-transparent outline-none text-XWhite ml-2">
+            <input
+              type="text"
+              name="search"
+              placeholder="X Search"
+              class="bg-transparent outline-none text-XWhite ml-2" />
           </div>
           <!-- EO Icon-->
         </div>
         <!-- EO Search -->
-        
+
         <!-- Trading section -->
-         <div class="ml-4 p-4 mb-2 bg-[#16181c] w-[350px] xl:w-11/12 mx-auto rounded-xl mt-4">
-             <h4 class="text-XWhite text-xl font-bold ">Subscribe to Premium</h4>
-          <p class="text-XWhite mt-2 text-sm font-bold">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-            <button
-              class="bg-XBlue mt-3 text-XWhite py-1 font-bold rounded-full w-28 h-10 hover:bg-blue-500">
-              Subscribe
-            </button>
-         </div>
-         
-        <div class="bg-[#16181c] w-[350px] xl:w-11/12 mx-auto rounded-xl mt-4 text-XWhite pt-4">
-            <h4 class="text-xl px-4 font-bold mb-3">Trends for you</h4>
-        <div class="hover:bg-white hover:bg-opacity-5  px-4 cursor-pointer flex items-center justify-between transition duration-150">
-          <div class="space-y-2 p-3">
-            <p class="text-xs text-XWhite font-medium">Web developer</p>
-            <h5 class="font-bold text-xs">Tailwind CSS / Modern css framework</h5>
-            <p class="text-xs font-medium text-XWhite">Traiding with</p>
-            <span class="text-XBlue text-xs hover:underline">#Tailwindcss</span>
-            <span class="text-XBlue text-xs hover:underline">#Bootstrap</span>
-          </div>
-          <span>
-            <img src="https://i.ibb.co/hRYbY3Q/My-profile.jpg" alt="profile-image" class="w-14 h-14 rounded-lg" >
-          </span>
+        <div
+          class="ml-4 p-4 mb-2 bg-[#16181c] w-[350px] xl:w-11/12 mx-auto rounded-xl mt-4">
+          <h4 class="text-XWhite text-xl font-bold">Subscribe to Premium</h4>
+          <p class="text-XWhite mt-2 text-sm font-bold">
+            Subscribe to unlock new features and if eligible, receive a share of
+            ads revenue.
+          </p>
+          <button
+            class="bg-XBlue mt-3 text-XWhite py-1 font-bold rounded-full w-28 h-10 hover:bg-blue-500">
+            Subscribe
+          </button>
         </div>
-        
-         <div class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
-          <div class="space-y-2 p-3">
-            <p class="text-xs text-XWhite font-medium">Web developer</p>
-            <h5 class="font-bold text-xs">Tailwind CSS / Modern css framework</h5>
-            <p class="text-xs font-medium text-XWhite">Traiding with</p>
-            <span class="text-XBlue text-xs hover:underline">#Tailwindcss</span>
-            <span class="text-XBlue text-xs hover:underline">#Bootstrap</span>
+
+        <div
+          class="bg-[#16181c] w-[350px] xl:w-11/12 mx-auto rounded-xl mt-4 text-XWhite pt-4">
+          <h4 class="text-xl px-4 font-bold mb-3">Trends for you</h4>
+          <div
+            class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
+            <div class="space-y-2 p-3">
+              <p class="text-xs text-XWhite font-medium">Web developer</p>
+              <h5 class="font-bold text-xs">
+                Tailwind CSS / Modern css framework
+              </h5>
+              <p class="text-xs font-medium text-XWhite">Traiding with</p>
+              <span class="text-XBlue text-xs hover:underline"
+                >#Tailwindcss</span
+              >
+              <span class="text-XBlue text-xs hover:underline">#Bootstrap</span>
+            </div>
+            <span>
+              <img
+                src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
+                alt="profile-image"
+                class="w-14 h-14 rounded-lg" />
+            </span>
           </div>
-          <span>
-            <img src="https://i.ibb.co/hRYbY3Q/My-profile.jpg" alt="profile-image" class="w-14 h-14 rounded-lg" >
-          </span>
-        </div>
-         
-         <div class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
-          <div class="space-y-2 p-3">
-            <p class="text-xs text-XWhite font-medium">Web developer</p>
-            <h5 class="font-bold text-xs">Tailwind CSS / Modern css framework</h5>
-            <p class="text-xs font-medium text-XWhite">Traiding with</p>
-            <span class="text-XBlue text-xs hover:underline">#Tailwindcss</span>
-            <span class="text-XBlue text-xs hover:underline">#Bootstrap</span>
+
+          <div
+            class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
+            <div class="space-y-2 p-3">
+              <p class="text-xs text-XWhite font-medium">Web developer</p>
+              <h5 class="font-bold text-xs">
+                Tailwind CSS / Modern css framework
+              </h5>
+              <p class="text-xs font-medium text-XWhite">Traiding with</p>
+              <span class="text-XBlue text-xs hover:underline"
+                >#Tailwindcss</span
+              >
+              <span class="text-XBlue text-xs hover:underline">#Bootstrap</span>
+            </div>
+            <span>
+              <img
+                src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
+                alt="profile-image"
+                class="w-14 h-14 rounded-lg" />
+            </span>
           </div>
-          <span>
-            <img src="https://i.ibb.co/hRYbY3Q/My-profile.jpg" alt="profile-image" class="w-14 h-14 rounded-lg" >
-          </span>
-        </div>   
-         
-         <div class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
-          <div class="space-y-2 p-4">
-           
-            <span class="text-XBlue text-xlg">Show More</span>
+
+          <div
+            class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
+            <div class="space-y-2 p-3">
+              <p class="text-xs text-XWhite font-medium">Web developer</p>
+              <h5 class="font-bold text-xs">
+                Tailwind CSS / Modern css framework
+              </h5>
+              <p class="text-xs font-medium text-XWhite">Traiding with</p>
+              <span class="text-XBlue text-xs hover:underline"
+                >#Tailwindcss</span
+              >
+              <span class="text-XBlue text-xs hover:underline">#Bootstrap</span>
+            </div>
+            <span>
+              <img
+                src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
+                alt="profile-image"
+                class="w-14 h-14 rounded-lg" />
+            </span>
           </div>
-          
-        </div>
-         
+
+          <div
+            class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
+            <div class="space-y-2 p-4">
+              <span class="text-XBlue text-xlg">Show More</span>
+            </div>
+          </div>
         </div>
         <!-- EO Trading section -->
-        
+
         <!-- Who to follow section -->
-        <div class="text-XWhite bg-[#16181c] rounded-xl w-[350px] xl:w-11/12 mx-auto space-y-2 py-4">
+        <div
+          class="text-XWhite bg-[#16181c] rounded-xl w-[350px] xl:w-11/12 mx-auto space-y-2 pt-4">
           <h5 class="font-bold text-xl px-4">Who to follow</h5>
-          
-          <div class="hover:bg-white hover:bg-opacity-5 p-2 px-4 hover:rounded-lg cursor-pointer flex items-center transition duration-150">
-            <span><img src="https://i.ibb.co/hRYbY3Q/My-profile.jpg" alt="" class="h-14 w-14 rounded-full"></span>
+
+          <div
+            class="hover:bg-white hover:bg-opacity-5 p-2 px-4 hover:rounded-lg cursor-pointer flex items-center transition duration-150">
+            <span
+              ><img
+                src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
+                alt=""
+                class="h-14 w-14 rounded-full"
+            /></span>
             <div class="ml-3">
               <h4 class="font-bold hover:underline">Bootstrap</h4>
               <h5 class="text-gray-500 text-sm">@Boostrap</h5>
             </div>
-            <button class="bg-XWhite text-black text-sm font-bold px-3 py-1.5 rounded-full ml-auto">Follow</button>
+            <button
+              class="bg-XWhite text-black text-sm font-bold px-3 py-1.5 rounded-full ml-auto">
+              Follow
+            </button>
           </div>
-          
-           <div class="hover:bg-white hover:bg-opacity-5 p-2 px-4 hover:rounded-lg cursor-pointer flex items-center transition duration-150">
-            <span><img src="https://i.ibb.co/hRYbY3Q/My-profile.jpg" alt="" class="h-14 w-14 rounded-full"></span>
+
+          <div
+            class="hover:bg-white hover:bg-opacity-5 p-2 px-4 hover:rounded-lg cursor-pointer flex items-center transition duration-150">
+            <span
+              ><img
+                src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
+                alt=""
+                class="h-14 w-14 rounded-full"
+            /></span>
             <div class="ml-3">
               <h4 class="font-bold hover:underline">Bootstrap</h4>
               <h5 class="text-gray-500 text-sm">@Boostrap</h5>
             </div>
-            <button class="bg-XWhite text-black text-sm font-bold px-3 py-1.5 rounded-full ml-auto">Follow</button>
+            <button
+              class="bg-XWhite text-black text-sm font-bold px-3 py-1.5 rounded-full ml-auto">
+              Follow
+            </button>
           </div>
-           <div class="hover:bg-white hover:bg-opacity-5 p-2 px-4 hover:rounded-lg cursor-pointer flex items-center transition duration-150">
-            <span><img src="https://i.ibb.co/hRYbY3Q/My-profile.jpg" alt="" class="h-14 w-14 rounded-full"></span>
+          <div
+            class="hover:bg-white hover:bg-opacity-5 p-2 px-4 hover:rounded-lg cursor-pointer flex items-center transition duration-150">
+            <span
+              ><img
+                src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
+                alt=""
+                class="h-14 w-14 rounded-full"
+            /></span>
             <div class="ml-3">
               <h4 class="font-bold hover:underline">Bootstrap</h4>
               <h5 class="text-gray-500 text-sm">@Boostrap</h5>
             </div>
-            <button class="bg-XWhite text-black text-sm font-bold px-3 py-1.5 rounded-full ml-auto">Follow</button>
+            <button
+              class="bg-XWhite text-black text-sm font-bold px-3 py-1.5 rounded-full ml-auto">
+              Follow
+            </button>
           </div>
-            <div class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
-          <div class="space-y-2 p-4">
-           
-            <span class="text-XBlue text-xlg">Show More</span>
+          <div
+            class="hover:bg-white hover:bg-opacity-5 px-4 cursor-pointer flex items-center justify-between transition duration-150">
+            <div class="space-y-2 p-4">
+              <span class="text-XBlue text-xlg">Show More</span>
+            </div>
           </div>
-          
-        </div>
         </div>
         <!-- EO Who to follow section -->
-        
+        <!-- Footer -->
+
+        <!-- Footer -->
       </div>
       <!-- EO Right Sidebar-->
     </div>
