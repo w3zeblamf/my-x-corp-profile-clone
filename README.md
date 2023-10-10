@@ -10,7 +10,7 @@ It's fast, flexible, and reliable — with zero-runtime.
 #### Screenshot:
 
 <p style= "align:center">
-  
+  <img src="https://github.com/w3zeblamf/my-x-corp-profile-clone/blob/main/images/my-x-prifile.PNG?raw=true" alt="my-x-corps-profile">
 </p>
 
 #### Reference web page:
